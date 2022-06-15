@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+#container {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 400px;
+  size: 400px;
+
+  
+  
+
+}
+
+button{
+  margin-bottom: 200px;
+  color: rgb(237, 231, 231);
+  background-color: blueviolet;
+  border: none;
+  transition: filter .7s;
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 20;
+  opacity: 0.8;
+}
+
+p{
+  margin-top: 2px;
+  margin-bottom: 50px;
+  opacity: 0.6;
+}
+
+input, button{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 7px;
+  
+}
+input{
+  margin-bottom: 20px;
+  background-color:rgb(252, 252, 252);
+  color: rgb(157, 0, 255);
+  
+}
+
+button:hover {
+filter:opacity(0.2);
+cursor:grab;
+}
+
+#lol{
+border-radius: 500px;
+margin-right: 30px;
+
+}
+
+#gato{
+  width: 200px;
+  border-radius: 600px;
+  border:solid 4px; color: rgb(98, 0, 113);
+  
+}
+#resposta{
+  margin-top: 13px;
+  transition: opacity 1s;
+
+
+}
+
+#resposta div{
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 3px;
+  
+}
