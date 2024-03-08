@@ -27,7 +27,7 @@ const respostas = [
 function fazerPergunta() {
 
   if (inputPergunta.value == "")  {
-    alert('digite uma pergunta, por favor mew.')
+    alert('digite uma pergunta, por favor mewo.')
     return
   }       
 
